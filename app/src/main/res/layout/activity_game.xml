@@ -39,7 +39,7 @@
         android:layout_marginLeft="@dimen/my_margin"
         android:layout_marginTop="@dimen/my_margin"
         android:background="@null"
-        android:onClick="playsound"
+        android:onClick="playSound"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="@+id/imvQuestion"
         app:layout_constraintLeft_toRightOf="@+id/imvQuestion"
