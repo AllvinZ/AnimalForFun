@@ -244,6 +244,7 @@ public class Game extends AppCompatActivity {
 
     private void dialogBoxScore() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setIcon(R.drawable.icon);
         builder.setTitle("สรุปคะแนน");
         builder.setMessage("คุณได้รับคะแนน " + score + "คะแนน")
                 .setCancelable(false)
